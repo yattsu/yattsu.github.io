@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.js": "/static/js/main.6064f21b.js",
+    "static/media/thumbnail.png": "/static/media/thumbnail.53443c4b190bb811639b.png",
+    "static/media/display1.png": "/static/media/display1.523c65919cd6045176b8.png",
+    "static/media/display2.png": "/static/media/display2.7c4820a763e65c12640a.png",
+    "static/media/display3.png": "/static/media/display3.1675c849ca7c5fb25c19.png",
+    "static/media/display4.png": "/static/media/display4.bb078153b5fb9456b0e0.png",
+    "static/media/profile.png": "/static/media/profile.9028854deb19f8bcf727.png",
+    "static/media/react_logo.png": "/static/media/react_logo.80045de70681e3171446.png",
+    "static/media/node_logo.png": "/static/media/node_logo.112b36afa8277de5b944.png",
+    "static/media/tailwind_logo.png": "/static/media/tailwind_logo.ccc3811f903fd7201407.png",
+    "static/media/javascript_logo.webp": "/static/media/javascript_logo.b593320c32e34a23f324.webp",
+    "static/media/css_logo.png": "/static/media/css_logo.8192306775acb6d56596.png",
+    "static/media/html_logo.png": "/static/media/html_logo.b757b1105a63ab582275.png",
+    "static/media/redux_logo.svg": "/static/media/redux_logo.bebc8109dd6da3549dec06ffcd75c844.svg",
+    "index.html": "/index.html",
+    "main.6064f21b.js.map": "/static/js/main.6064f21b.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.6064f21b.js"
+  ]
+}
