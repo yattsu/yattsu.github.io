@@ -24,7 +24,7 @@ export const Projectsbox = () => {
     <div className="p-4 rounded-lg border grow">
       <div className="flex flex-col gap-2">
         {projects.map((project, idx) => (
-          <Drawer>
+          <Drawer key={idx}>
             <DrawerTrigger>
               <Projectbox project={project} />
             </DrawerTrigger>

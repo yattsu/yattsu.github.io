@@ -26,7 +26,7 @@ export const Projectbox = ({ project }) => {
         </div>
         <div className="flex gap-2 justify-end">
           {project.technologies.map((technology: any) => (
-            <Badge>{technology}</Badge>
+            <Badge key={technology}>{technology}</Badge>
           ))}
         </div>
       </div>
