@@ -17,7 +17,7 @@ export const Projectbox = ({ project }) => {
           <Skeleton className="w-full h-full" />
         )}
       </div>
-      <div className="flex flex-col w-32 gap-4 justify-between grow">
+      <div className="flex truncate flex-col w-32 gap-4 justify-between grow">
         <div className="flex flex-col items-start gap-1">
           <span className="text-xl font-bold text-left">{project.name}</span>
           <div className="text-left text-muted-foreground line-clamp-2 text-sm sm:text-md sm:line-clamp-3">
