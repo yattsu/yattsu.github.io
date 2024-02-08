@@ -10,7 +10,7 @@ import {
 import { Badge } from "./ui/badge";
 import { Separator } from "./ui/separator";
 import { Skeleton } from "./ui/skeleton";
-import avatarImage from "../assets/avatar2.png";
+import avatarImage from "../assets/avatar2.webp";
 import { motion } from "framer-motion";
 
 export const Devbox = () => {
