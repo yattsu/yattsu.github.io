@@ -21,7 +21,11 @@ import { projects } from "@/projects";
 
 export const Projectsbox = () => {
   return (
-    <div className="p-4 rounded-lg border grow select-none">
+    <div className="p-4 pt-2 sm:pt-4 rounded-lg sm:border grow select-none">
+      <div className="flex flex-col gap-2 items-start px-2 sm:hidden">
+        <span className="text-xl font-bold">Projects</span>
+        <Separator className="mb-2" />
+      </div>
       <div className="flex flex-col gap-2">
         {projects.map((project, idx) => (
           <Drawer key={idx}>

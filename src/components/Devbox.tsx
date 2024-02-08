@@ -19,7 +19,7 @@ export const Devbox = () => {
       initial={{ opacity: 0, rotateX: "-30deg" }}
       animate={{ opacity: 100, rotateX: "0deg" }}
       transition={{ delay: 0.2 }}
-      className="sm:sticky sm:top-6 p-6 sm:max-w-sm h-fit border rounded-lg"
+      className="sm:sticky sm:top-6 p-6 pb-0 sm:pb-6 sm:max-w-sm h-fit sm:border rounded-lg"
     >
       <div className="flex flex-col items-start gap-4 text-sm">
         <div className="flex gap-4 items-center">
@@ -83,7 +83,7 @@ export const Devbox = () => {
         </div>
         <Separator />
         <div className="flex flex-col gap-2 items-start">
-          <span className="font-bold">Bio</span>
+          <span className="text-xl font-bold">Bio</span>
           <div className="flex gap-2">
             <span className="text-lg">👋</span>
             <span className="text-left text-muted-foreground italic">
@@ -99,7 +99,7 @@ export const Devbox = () => {
             <Tooltip>
               <TooltipTrigger>
                 <a target="_blank" href="https://github.com/yattsu">
-                  <FaGithub className="w-4 h-4 hover:opacity-60 transition-all" />
+                  <FaGithub className="w-6 h-6 hover:opacity-60 transition-all" />
                 </a>
               </TooltipTrigger>
               <TooltipContent>
@@ -112,7 +112,7 @@ export const Devbox = () => {
                   target="_blank"
                   href="https://www.linkedin.com/in/vlad-toma/"
                 >
-                  <FaLinkedin className="w-4 h-4 hover:opacity-60 transition-all" />
+                  <FaLinkedin className="w-6 h-6 hover:opacity-60 transition-all" />
                 </a>
               </TooltipTrigger>
               <TooltipContent>

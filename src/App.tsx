@@ -9,7 +9,7 @@ import { useState } from "react";
 function App() {
   const [enterLoading, setEnterLoading] = useState(true);
   return (
-    <div className="flex justify-center p-4 sm:p-6">
+    <div className="flex justify-center p-0 sm:p-6">
       {enterLoading ? (
         <div className="absolute flex flex-col top-0 left-0 items-center justify-center w-screen h-screen">
           <EnterProgress setEnterLoading={setEnterLoading} />
