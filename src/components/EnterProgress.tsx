@@ -11,21 +11,39 @@ export const EnterProgress = ({ setEnterLoading }) => {
       setProgress(100);
       const charge = setTimeout(() => {
         setEnterLoading(false);
-      }, 1000);
+      }, 1200);
       return () => clearTimeout(charge);
-    }, 1000);
+    }, 800);
     return () => {
       clearTimeout(show);
     };
   }, []);
   return (
     <motion.div
-      className="flex justify-center w-full"
+      className="flex flex-col items-center gap-0 justify-center w-full overflow-hidden"
       initial={{ opacity: 0 }}
-      animate={{ opacity: 100 }}
-      transition={{ delay: 0.3 }}
+      animate={{ opacity: 1 }}
+      transition={{ delay: 0.15 }}
     >
-      <Progress value={progress} className="w-[80%] sm:w-[50%]" />
+      <motion.span
+        initial={{ opacity: 0, marginBottom: "0px" }}
+        animate={{ opacity: 100, marginBottom: "30px" }}
+        transition={{ delay: 0.3 }}
+        className="text-3xl font-bold bg-background w-full py-1"
+      >
+        <div className="relative text-primary">
+          <motion.div
+            initial={{ translateX: "-100%" }}
+            animate={{ translateX: "100%" }}
+            transition={{ delay: 0.8, duration: 2 }}
+            className="absolute mix-blend-lighten w-full h-full bg-gradient-to-r from-primary via-slate-300 to-primary/80"
+          ></motion.div>
+          <motion.span initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
+            Hello.
+          </motion.span>
+        </div>
+      </motion.span>
+      <Progress value={progress} className="w-[75%] sm:w-[50%]" />
     </motion.div>
   );
 };
